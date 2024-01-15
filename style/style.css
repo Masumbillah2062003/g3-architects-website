@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;0,700;1,400&display=swap');
+
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.primary-description{
+    color: #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.primary-btn{
+    padding: 1.25rem 1.5rem;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+}
+
+/* header part style start */
+.header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .logo-title{
+    color: #131313;
+    text-align: center;
+    font-size: 2.28rem;
+    font-weight: 700;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #424242;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.header .banner{
+    max-width: 862px;
+    text-align: center;
+    margin: 0 auto; 
+}
+.banner .banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.header > img{
+    margin-top: 50px;
+    max-width: 100%;
+}
+/* header part style end */
+
+
+/* main part design start */
+
+/* image and features part style start */
+.images-and-features{
+    padding: 80px 60px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.images-and-features .images-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick-to-features .quick-list{
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.quick-to-features .of-our{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.quick-to-features .features{
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+/* image and features part style end */
+
+/* features part design start */
+.features-card-img{
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.features-card-description{
+    width: 550px;
+}
+.features-enjoy-title{
+    width: 468px;
+    line-height: 58px;
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-left: 30px;
+    border-left: 5px solid #FF900E;
+}
+.features-enjoy-description,
+.features-card-description
+{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.features-card{
+    padding-left: 30px;
+}
+.features-card-title{
+    color:  #131313;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.features-img-and-single-card{
+    position: relative;
+}
+.features-img-and-single-card > img{
+    width: 100%;
+}
+
+.img-bottom-button{
+    position: absolute;
+    bottom: -75px;
+    left: -115px;
+    display: block;
+    padding: 42px 45px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: 0;
+}
+.img-bottom-button > h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 0px;
+}
+.img-bottom-button > p{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 10px;
+}
+/* features part design end */
+
+/*some fact section style start  */
+.some-fact-card{
+    padding: 50px 280px 80px 240px;
+}
+.some-fact .some-fact-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.some-fact .some-fact-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; 
+    max-width: 542px;
+}
+.cards{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    max-width: 430px;
+    max-height: 241px;
+    padding: 60px 40px;
+    margin-top: 20px;
+}
+.card > img{
+    max-width: 100%;
+}
+.card > .card-num{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: -5px 0px;
+}
+.card > .card-descript{
+    color: #727272;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 5px 0;
+}
+/*some fact section style end */
+
+/* our sponsopors style start */
+.our-sponspors-and-icon{
+    padding: 80px 240px;
+}
+.our-sponspors{
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-sponspors .our-sponspors-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.our-sponspors .our-sponspors-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.our-sponspors-and-icon .img-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.img-icon img{
+    margin-top: 20px;
+    max-width: 100%;
+}
+/* our sponsopors style end */
+
+/* main part design end */
+
+/* footer part design start */
+footer{
+    width: 1440px;
+    height: 100px;
+    background-color: #FFF4E7;
+    margin: 0 auto;
+}
+footer > p{
+    color: #424242;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 100px;
+}
+/* footer part design end*/
+
+/* media query style */
+@media screen and (max-width:576px) {
+    .header,
+    .images-and-features,
+    .some-fact-card,
+    .our-sponspors-and-icon,
+    .features-card-img
+    {
+        padding: 20px;
+    }
+    .navbar, 
+    .images-and-features, 
+    .cards,
+    .img-icon,
+    .features-card-img
+    {
+        flex-direction: column;
+    }
+    .banner .banner-title{
+        font-size: 2.5rem;
+    }
+    .images-and-features .images-box
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .navbar ul{
+        flex-direction: column;
+    }
+    .features-card-description{
+        width: 270px;
+    }
+    .features-enjoy-title{
+        width: 250px;
+    }
+    footer{
+        width: 309px;
+        height: 150px;
+        padding: 5px;
+    }
+    footer > p{
+        line-height: 30px;
+    }
+}
