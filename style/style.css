@@ -296,7 +296,7 @@ footer > p{
     }
     .navbar ul{
         flex-direction: column;
-        margin-left: 36px;
+        margin-left: -36px;
     }
     .features-card-description{
         width: 270px;
